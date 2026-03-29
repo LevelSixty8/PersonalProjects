@@ -2,3 +2,14 @@
 __MACOSX/
 *.zip
 a.out
+.DS_Store
+__MACOSX/
+*.zip
+*.o
+*.ko
+*.mod
+*.cmd
+Module.symvers
+modules.order
+mem_tester
+mem.out
