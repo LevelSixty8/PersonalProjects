@@ -1,0 +1,17 @@
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+graph_info.txt
+
+# OS
+.DS_Store
+
+out.dot
+out.png
