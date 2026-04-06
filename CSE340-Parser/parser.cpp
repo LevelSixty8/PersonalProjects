@@ -126,7 +126,6 @@ static REG* make_star_reg(REG* reg1) {
 // returned, otherwise, synatx_error() is generated
 // this function is particularly useful to match
 // terminals in a right hand side of a rule.
-// Written by Mohsen Zohrevandi
 
 REG* Parser::parse_expr(bool &nullable) {
     Token token = lexer.peek(1);
@@ -180,7 +179,7 @@ REG* Parser::parse_expr(bool &nullable) {
         return make_star_reg(reg1);
     }
 
-    //If no matches, then there'sa  syntax error in the expresssion
+    //If no matches, then there's a syntax error in the expresssion
     syntax_error_in_expr();
     return nullptr;
 }
